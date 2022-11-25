@@ -1,0 +1,91 @@
+<div class="bg-img">
+ <nav class="navbar navbar light bg-primary">
+     <div class="container-fluid">
+         <h2>Restaturent Record App</h2>
+         <div class="d-flex">
+             <button type="button" (click)="clickAddRestro()" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Restaurent</button>
+             <button routerLink="/login" class="btn btn-danger mx-3" >Log Out</button>
+         </div>
+     </div>
+ </nav>
+ </div>
+ <!-- jumbotron -->
+ <div class="p-5 mb-4 bg-skyblue rounded-3 " style="background-color: skyblue;"  > 
+ <div class="container-fluid py-5"  >
+    <h1 class="display-5 fw-bold">Restaturent Record</h1>
+    <p class="col-md-8 fs-4">you can save record using angular 13</p>
+      <button class="btn btn-primary btn-lg" routerLink="/learn"  role="button">Learn more</button>
+  </div>
+  </div>
+ <!-- table shown here -->
+ <div class="bg-img2"> 
+ <table class="table table-stripped mt-4">
+     <thead>
+         <tr  >
+             <th scope="col">Restaturent Id</th>
+             <th scope="col">Name</th>
+             <th scope="col">Email</th>
+             <th scope="col">Mobile</th>
+             <th scope="col">Address</th>
+             <th scope="col">Service</th>
+             <th scope="col">Action</th>
+         </tr>
+     </thead>
+     <tbody>
+         <tr *ngFor="let data of allRestaurentData">
+             <td>{{data.id}}</td>
+             <td>{{data.name}}</td>
+             <td>{{data.email}}</td>
+             <td>{{data.mobile}}</td>
+             <td>{{data.address}}</td>
+             <td>{{data.services}}</td>
+             <td>
+                 <button class="btn btn-info" (click)="onEditRestro(data)">Edit</button>&nbsp;
+                 <button class="btn btn-danger" (click)="deleteData(data)">Delete</button>
+         </tr>
+     </tbody>
+ </table>
+ </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="formValue">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="email" formControlName="name" class="form-control"   placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Email Id</label>
+                  <input type="password" formControlName="email" class="form-control"  placeholder="Enter Email Id">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Mobile</label>
+                    <input type="email" formControlName="mobile" class="form-control"   placeholder="Enter Mobile">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Address</label>
+                    <input type="password" formControlName="address" class="form-control"   placeholder="Enter Address">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Service</label>
+                    <input type="password" formControlName="services" class="form-control"   placeholder="Enter Service">
+                  </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal" >Close</button>
+          <button type="button" *ngIf="showAdd" class="btn btn-primary" (click)="addRestro()" data-bs-dismiss="modal" >Add Details</button>
+          <button type="button" *ngIf="showbtn" class="btn btn-primary" (click)="updateRestro()">Update Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 

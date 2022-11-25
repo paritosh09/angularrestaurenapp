@@ -1,0 +1,22 @@
+<div class="callout">
+  <button class="btn btn-outline-danger" (click)="move()">carousel</button>
+</div>
+<div *ngFor="let items of appList;let i =index">
+ 
+   <div class="column"> 
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img [src]="items.imageUrl"  style="width:300px;height:200px;">
+          </div>
+          <div class="flip-card-back">
+            <input type="text" [(ngModel)]="items.age" disabled="true">
+            <input type="text" [(ngModel)]="items.id" disabled="true"> 
+            <input type="text" [(ngModel)]="items.name" disabled="true">
+            <p   >{{items.snippet}}</p>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div> 
+    

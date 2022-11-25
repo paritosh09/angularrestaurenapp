@@ -1,0 +1,33 @@
+.card{
+    margin-top: 15px;
+    border: 1px solid blue;
+    width: 550px;
+    padding: 45px;
+    position: absolute;
+    top:5%;
+    left:35%;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("bgs1.jpg");
+  
+    min-height: 730px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .bg-img2 {
+    /* The image used */
+    background-image: url("BG1.jpg");
+  
+    min-height: auto;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
