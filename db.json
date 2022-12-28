@@ -9,6 +9,7 @@
       "id": 2,
       "name": "paritosh",
       "email": "upreti",
+      "gender": "male",
       "mobile": "8656969",
       "address": "hbkbbkh",
       "services": ""
@@ -17,6 +18,7 @@
       "id": 3,
       "name": "pkjo",
       "email": "onklj ",
+      "gender": "female",
       "mobile": "686668",
       "address": "hjhhh",
       "services": ""
@@ -25,6 +27,7 @@
       "id": 4,
       "name": "hjbjb",
       "email": "jknbkjb",
+      "gender": "female",
       "mobile": "bbkjbk",
       "address": "bkbk",
       "services": null
@@ -33,6 +36,7 @@
       "id": 5,
       "name": "paritosh",
       "email": "paritoshupreti777",
+      "gender": "male",
       "mobile": "0879789789",
       "address": "nainital",
       "services": "room"
@@ -41,6 +45,7 @@
       "id": 6,
       "name": "paritosh",
       "email": "pbuioi",
+      "gender": "male",
       "mobile": "7967897",
       "address": "hv kbg",
       "services": "8076y98"
@@ -49,9 +54,18 @@
       "id": 7,
       "name": "paritosh",
       "email": "new wmail",
+      "gender": "male",
       "mobile": "67768968`",
       "address": "paojop",
       "services": "pajdab"
+    },
+    {
+      "id": 8,
+      "name": "paritosh",
+      "email": "@jL",
+      "mobile": "899",
+      "address": "JJJJ",
+      "services": "JJJJJ"
     }
   ],
   "comments": [
@@ -77,88 +91,18 @@
       "id": 2
     },
     {
-      "name": "paritosh ",
+      "name": "paritoshupreti",
       "email": "paritoshupreti1999@gmail.com",
       "mobile": "7895779916",
-      "password": "qwerty",
+      "password": "12345678",
       "id": 3
     },
     {
-      "name": "paritosh ",
+      "name": "paritoshupreti",
       "email": "paritoshupreti1999@gmail.com",
       "mobile": "7895779916",
-      "password": "qwerty",
+      "password": "12345678",
       "id": 4
-    },
-    {
-      "name": "paritosh",
-      "email": "par111",
-      "mobile": "578587",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "name": "paritosh",
-      "email": "par111",
-      "mobile": "578587",
-      "password": "123456",
-      "id": 6
-    },
-    {
-      "name": "sanjay",
-      "email": "sanjay1",
-      "mobile": "67890",
-      "password": "123456",
-      "id": 7
-    },
-    {
-      "name": "sanjay",
-      "email": "sanjay1",
-      "mobile": "67890",
-      "password": "123456",
-      "id": 8
-    },
-    {
-      "name": "dakuudaddy",
-      "email": "d@gmail",
-      "mobile": "890",
-      "password": "1234",
-      "id": 9
-    },
-    {
-      "name": "dakuudaddy",
-      "email": "d@gmail",
-      "mobile": "890",
-      "password": "1234",
-      "id": 10
-    },
-    {
-      "name": "paritosh",
-      "email": "par11",
-      "mobile": "7895",
-      "password": "123456",
-      "id": 11
-    },
-    {
-      "name": "paritosh",
-      "email": "par11",
-      "mobile": "7895",
-      "password": "123456",
-      "id": 12
-    },
-    {
-      "name": "paritosh9",
-      "email": "dakku",
-      "mobile": "9898",
-      "password": "123456",
-      "id": 13
-    },
-    {
-      "name": "paritosh9",
-      "email": "dakku",
-      "mobile": "9898",
-      "password": "123456",
-      "id": 14
     }
   ],
   "mobile": [

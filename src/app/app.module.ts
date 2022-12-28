@@ -13,6 +13,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { LearnComponent } from './learn/learn.component';
 import { CuriousComponent } from './curious/curious.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CalculatorComponent } from './calculator/calculator.component';
+import { MyTitlePipe } from './my-title.pipe';
+import { CustomerrorComponent } from './customerror/customerror.component';
+import { ImageCropperComponent } from './image-cropper/image-cropper.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { CarouselComponent } from './carousel/carousel.component';
     SignupComponent,
     LearnComponent,
     CuriousComponent,
-    CarouselComponent
+    CarouselComponent,
+    CalculatorComponent,
+    MyTitlePipe,
+    CustomerrorComponent,
+    ImageCropperComponent
   ],
   imports: [
     BrowserModule,CommonModule,ReactiveFormsModule,
