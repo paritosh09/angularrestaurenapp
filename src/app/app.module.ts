@@ -17,6 +17,9 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { MyTitlePipe } from './my-title.pipe';
 import { CustomerrorComponent } from './customerror/customerror.component';
 import { ImageCropperComponent } from './image-cropper/image-cropper.component';
+import { ImageColorPickerComponent } from './image-color-picker/image-color-picker.component';
+import { InnovationComponent } from './innovation/innovation.component';
+import { FabricLearnComponent } from './fabric-learn/fabric-learn.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { ImageCropperComponent } from './image-cropper/image-cropper.component';
     CalculatorComponent,
     MyTitlePipe,
     CustomerrorComponent,
-    ImageCropperComponent
+    ImageCropperComponent,
+    ImageColorPickerComponent,
+    InnovationComponent,
+    FabricLearnComponent
   ],
   imports: [
     BrowserModule,CommonModule,ReactiveFormsModule,

@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
@@ -9,7 +10,7 @@ export class ApiService {
 
   constructor(private http:HttpClient) { }
   postRestaurent(data:any){
-    return this.http.post<any>("  http://localhost:3001/posts",data)
+    return this.http.post<any>("  http://localhost:3001/posts/",data)
     .pipe(map((res:any)=>{
       return res;
     }))
@@ -21,13 +22,13 @@ export class ApiService {
     }))
   }
   updateRestaurent(data:any,id:number){
-    return this.http.put<any>("  http://localhost:3001/posts"+id,data)
+    return this.http.put<any>("  http://localhost:3001/posts/"+id,data)
     .pipe(map((res:any)=>{
       return res;
     }))
   }
   deleteRestaurent(id:number){
-    return this.http.delete<any>("  http://localhost:3001/posts"+id)
+    return this.http.delete<any>("http://localhost:3001/posts/"+id)
     .pipe(map((res:any)=>{
       return res;
    }))
@@ -41,5 +42,19 @@ export class ApiService {
     }))
     
   }
-  
+
+  getNotes(){
+    return this.http.get<any>("http://localhost:3001/notes")
+    .pipe(map((res:any)=>{
+      return res;
+    }))
+  }
+ postNotes(data:any){
+  return this.http.post<any>("  http://localhost:3001/notes/",data)
+    .pipe(map((res:any)=>{
+      return res;
+    }))
+
+ }
+
 }

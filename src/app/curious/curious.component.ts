@@ -20,7 +20,7 @@ export class CuriousComponent implements OnInit {
   getInfo(){
  
     {
-      this.api.getMobile().subscribe(res=>{
+      this.api.getMobile ().subscribe(res=>{
         this.appList=res;
     
       })

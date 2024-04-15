@@ -1,47 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "name": "paritosh",
-      "email": "upreti",
-      "gender": "male",
-      "mobile": "8656969",
-      "address": "hbkbbkh",
-      "services": ""
-    },
-    {
-      "id": 3,
-      "name": "pkjo",
-      "email": "onklj ",
-      "gender": "female",
-      "mobile": "686668",
-      "address": "hjhhh",
-      "services": ""
-    },
-    {
-      "id": 4,
-      "name": "hjbjb",
-      "email": "jknbkjb",
-      "gender": "female",
-      "mobile": "bbkjbk",
-      "address": "bkbk",
-      "services": null
-    },
-    {
-      "id": 5,
-      "name": "paritosh",
-      "email": "paritoshupreti777",
-      "gender": "male",
-      "mobile": "0879789789",
-      "address": "nainital",
-      "services": "room"
-    },
-    {
       "id": 6,
       "name": "paritosh",
       "email": "pbuioi",
@@ -49,32 +8,9 @@
       "mobile": "7967897",
       "address": "hv kbg",
       "services": "8076y98"
-    },
-    {
-      "id": 7,
-      "name": "paritosh",
-      "email": "new wmail",
-      "gender": "male",
-      "mobile": "67768968`",
-      "address": "paojop",
-      "services": "pajdab"
-    },
-    {
-      "id": 8,
-      "name": "paritosh",
-      "email": "@jL",
-      "mobile": "899",
-      "address": "JJJJ",
-      "services": "JJJJJ"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "signup": [
     {
       "name": "paritosh",
@@ -103,6 +39,20 @@
       "mobile": "7895779916",
       "password": "12345678",
       "id": 4
+    },
+    {
+      "name": "manoj bhn ka klund",
+      "email": "app@gmail.com",
+      "mobile": "ok",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "manoj bhn ka klund",
+      "email": "app@gmail.com",
+      "mobile": "ok",
+      "password": "12345678",
+      "id": 6
     }
   ],
   "mobile": [
@@ -201,5 +151,23 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "notes": [
+    {
+      "title": "Note 1",
+      "content": "This is the content of Note 1."
+    },
+    {
+      "title": "Note 2",
+      "content": "This is the content of Note 2."
+    },
+    {
+      "title": "Note 3",
+      "content": "This is the content of Note 3."
+    },
+    {
+      "title": "Note 4",
+      "content": "This is the content of Note 4."
+    }
+  ]
 }

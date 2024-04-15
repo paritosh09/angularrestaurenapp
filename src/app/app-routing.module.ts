@@ -4,11 +4,14 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CuriousComponent } from './curious/curious.component';
 import { CustomerrorComponent } from './customerror/customerror.component';
+import { ImageColorPickerComponent } from './image-color-picker/image-color-picker.component';
 import { LearnComponent } from './learn/learn.component';
 import { LoginComponent } from './login/login.component';
 import { RestaurentDashComponent } from './restaurent-dash/restaurent-dash.component';
 import { AuthguardGuard } from './shared/authguard.guard';
 import { SignupComponent } from './signup/signup.component';
+import { FabricLearnComponent } from './fabric-learn/fabric-learn.component';
+import { InnovationComponent } from './innovation/innovation.component';
  
  
 
@@ -36,6 +39,16 @@ const routes :Routes=[
   },
   {
     path:'calculator',component:CalculatorComponent
+  },
+  {
+    path:'image-picker',component:ImageColorPickerComponent
+  },
+  
+  {
+    path:'fabric', component:FabricLearnComponent
+  },
+  {
+    path:'innovation', component:InnovationComponent
   },
   {
     path:'**', component:CustomerrorComponent

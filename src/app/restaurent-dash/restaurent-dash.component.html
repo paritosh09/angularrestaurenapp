@@ -14,9 +14,9 @@
  <div class="container-fluid py-5"  >
     <h1 class="display-5 fw-bold">Restaturent Record</h1>
     <p class="col-md-8 fs-4">you can save record using angular 13</p>
-      <button class="btn btn-primary btn-lg" routerLink="/learn"  role="button">Learn more</button>
-      <button class="btn btn-warning btn-lg" routerLink="/calculator"  role="button">Some Arybhatt Solution</button>
-      <a [routerLink] = "['/invalidLink']" >Invalid Link</a>
+      <button class="btn btn-primary btn-sm" routerLink="/learn"  role="button">Learn more</button>
+      <button class="btn btn-warning btn-sm" routerLink="/calculator"  role="button">Some Arybhatt Solution</button>
+       <button class="btn btn-danger btn-sm" routerLink="/image-picker" role="button">Image Color Picker</button>
   </div>
   </div>
  <!-- table shown here -->
@@ -43,7 +43,7 @@
              <td>{{data.services}}</td>
              <td>
                  <button class="btn btn-info" (click)="onEditRestro(data)">Edit</button>&nbsp;
-                 <button class="btn btn-danger" (click)="deleteData(data)">Delete</button>
+                 <button class="btn btn-danger"  (click)="deleteData(data)">Delete</button>
          </tr>
      </tbody>
  </table>
@@ -53,7 +53,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Restaturent Record Form</h5>
           <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Email Id</label>
-                  <input type="password" formControlName="email" class="form-control"  placeholder="Enter Email Id">
+                  <input type="email" formControlName="email" class="form-control"  placeholder="Enter Email Id">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Mobile</label>
@@ -74,7 +74,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Address</label>
-                    <input type="password" formControlName="address" class="form-control"   placeholder="Enter Address">
+                    <input type="email" formControlName="address" class="form-control"   placeholder="Enter Address">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Service</label>

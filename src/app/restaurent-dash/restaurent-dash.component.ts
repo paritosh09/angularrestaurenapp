@@ -72,6 +72,7 @@ export class RestaurentDashComponent implements OnInit {
 
 }
 onEditRestro(data:any){
+  debugger;
   this.showAdd=false;
   this.showbtn=true;
   this.restaurentModelObj.id=data.id;

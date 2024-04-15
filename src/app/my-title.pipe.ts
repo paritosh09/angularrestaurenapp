@@ -6,10 +6,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class MyTitlePipe implements PipeTransform {
 
   transform(name: string, gender: string): string {
+    if (!name || !gender) {
+      return "";
+    }
     if (gender.toLowerCase() == "male")
         return "Mr. " + name;
     else
         return "Miss. " + name;
   }
-
-} 
+}
